@@ -37,6 +37,7 @@ const InputComp = () => {
 <template>
   <div>
     <Comp :data="data" />
+    <h1>{{ inputValue }}</h1>
     <HelloWorld ref="helloWorld" msg="Vite + Vue" />
     <InputComp v-model="inputValue" />
   </div>
